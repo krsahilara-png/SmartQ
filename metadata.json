@@ -1,0 +1,6 @@
+{
+  "name": "SmartQ",
+  "description": "SmartQ — Intelligent Digital Queue Management Platform. Skip the line. Not your turn.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

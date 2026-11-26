@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartQ Bhopal — Multi-Category Digital Queue Management Platform</title>
+    <meta
+      name="description"
+      content="SmartQ Bhopal — Find hospitals, diagnostic labs, banks, salons, and local services across Bhopal. Check live counters and book digital QR queue tokens."
+    />
+    <meta property="og:title" content="SmartQ Bhopal — Multi-Category Digital Queue Management Platform" />
+    <meta
+      property="og:description"
+      content="Discover Bhopal establishments by category and locality, inspect counter availability, and book privacy-safe QR tokens where live queues are enabled."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Persistent 3D Folded Ribbon Sculptural Glassmorphism Background -->
+    <div class="ambient-3d-stage" aria-hidden="true">
+      <div class="ambient-sky"></div>
+      <div class="ambient-glow ambient-glow-left"></div>
+      <div class="ambient-glow ambient-glow-right"></div>
+      <div class="ambient-glow ambient-glow-bottom"></div>
+
+      <!-- Left Flowing 3D Blue-Periwinkle Folded Ribbon Fan -->
+      <div class="ribbon-fan ribbon-fan-left">
+        <span class="ribbon-blade b1"></span>
+        <span class="ribbon-blade b2"></span>
+        <span class="ribbon-blade b3"></span>
+        <span class="ribbon-blade b4"></span>
+        <span class="ribbon-blade b5"></span>
+        <span class="ribbon-blade b6"></span>
+        <span class="ribbon-blade b7"></span>
+        <span class="ribbon-blade b8"></span>
+        <span class="ribbon-blade b9"></span>
+      </div>
+
+      <!-- Top-Right Sculptural Lavender-Lilac Folded Ribbon Fan -->
+      <div class="ribbon-fan ribbon-fan-right">
+        <span class="ribbon-blade r1"></span>
+        <span class="ribbon-blade r2"></span>
+        <span class="ribbon-blade r3"></span>
+        <span class="ribbon-blade r4"></span>
+        <span class="ribbon-blade r5"></span>
+        <span class="ribbon-blade r6"></span>
+        <span class="ribbon-blade r7"></span>
+        <span class="ribbon-blade r8"></span>
+      </div>
+
+      <!-- Bottom-Left Sweeping Periwinkle-Ice Ribbon Wave -->
+      <div class="ribbon-fan ribbon-fan-bottom">
+        <span class="ribbon-blade w1"></span>
+        <span class="ribbon-blade w2"></span>
+        <span class="ribbon-blade w3"></span>
+        <span class="ribbon-blade w4"></span>
+        <span class="ribbon-blade w5"></span>
+        <span class="ribbon-blade w6"></span>
+        <span class="ribbon-blade w7"></span>
+      </div>
+
+      <div class="ambient-light-veil"></div>
+    </div>
+
+    <div id="app" class="app-shell">
+      <noscript>
+        <div class="noscript-banner">
+          SmartQ requires JavaScript enabled in your browser to manage digital queues and QR tokens.
+        </div>
+      </noscript>
+    </div>
+
+    <!-- Accessible Modal Portal -->
+    <div id="modal-root" class="modal-backdrop" role="dialog" aria-modal="true" aria-hidden="true"></div>
+
+    <!-- Accessible Toast Notification Region -->
+    <div id="toast-root" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+
+    <!-- Dedicated Print Ticket Sheet -->
+    <div id="print-sheet" class="print-sheet" aria-hidden="true"></div>
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script type="module" src="/script.js"></script>
+  </body>
+</html>
